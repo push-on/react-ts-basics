@@ -6,22 +6,22 @@
   body {
     @apply bg-slate-900 text-slate-50;
   }
-  h1{
-    @apply text-3xl font-bold capitalize
+  h1 {
+    @apply text-3xl font-bold capitalize;
   }
-  h2{
-    @apply text-2xl font-bold capitalize
+  h2 {
+    @apply text-2xl font-bold capitalize;
   }
-  h3{
-    @apply text-xl font-bold capitalize
+  h3 {
+    @apply text-xl font-bold capitalize;
   }
-  strong{
-    @apply text-amber-300
+  strong {
+    @apply text-amber-300;
   }
 }
 
-/* @layer components {
-  .Custom-class {
-    @apply ;
+@layer components {
+  .canvas {
+    @apply h-screen flex flex-col space-y-5 justify-center items-center;
   }
-} */
+}
