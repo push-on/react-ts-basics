@@ -1,11 +1,11 @@
 type ud = {
   ur: {
-    id: number
-    name: string
-    email: string
-    age: number
-  }[]
-}
+    id: number;
+    name: string;
+    email: string;
+    age: number;
+  }[];
+};
 
 export const UsersAr = ({ ur }: ud) => {
   return (
@@ -22,5 +22,5 @@ export const UsersAr = ({ ur }: ud) => {
         </div >
       ))}
     </>
-  )
-}
+  );
+};

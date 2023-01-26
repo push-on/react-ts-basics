@@ -1,9 +1,9 @@
 type user = {
-  n: string
-  a: number
-  r: boolean
-  l: string[]
-}
+  n: string;
+  a: number;
+  r: boolean;
+  l: string[];
+};
 
 export const User = (p: user) => {
   return (
@@ -16,5 +16,5 @@ export const User = (p: user) => {
       <strong>Reg:</strong> {p.r ? "True" : "false"} <br />
       <strong>Lang:</strong> {p.l.map(a => `${a}, `)}
     </div>
-  )
-}
+  );
+};
