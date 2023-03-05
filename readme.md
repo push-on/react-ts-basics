@@ -1,1 +1,1 @@
-# 🔵 Tailwind basics For react
+# 🔵 typescript Basics
